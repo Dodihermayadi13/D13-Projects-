@@ -1,0 +1,39 @@
+h1{
+  text-shadow: 0 0 3px #66fcf1, 0 0 3px #66f;
+  box-shadow: 10px 10px;
+  box-shadow: 10px 10px yellow;
+  box-shadow: 10px 10px 5px #66fcf1;
+  color: white;
+  background-color: black;
+}
+body{
+  background-image: url(1.jpeg);
+  background-size: 4500px;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 15px;
+}
+.card{
+  background-color:	#9400D3;
+  box-shadow: 10px 10px;
+  box-shadow: 10px 10px #66f;
+  box-shadow: 9px 9px 8px #Ff00ff;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card:hover{
+  transform: translate(-15px);
+}
+.card-container > :not(:hover){
+  opacity: 0.5;
+}
+h3{
+  font-size: 30px;
+  text-shadow:5px 3px 0 #7FFF00, -5px -3px 0 #00ffff;
+  color: white;
+  margin-left: 15px;
+}
